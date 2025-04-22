@@ -19,8 +19,7 @@ class AboutUsSeeder extends Seeder
             'email' => 'info@libraryhub.com',
             'address' => '123 Kütüphane Sokak, İstanbul',
             'facebook' => 'https://facebook.com/libraryhub',
-            'twitter' => 'https://twitter.com/libraryhubව
-
+            'twitter' => 'https://twitter.com/libraryhub',
             'instagram' => 'https://instagram.com/libraryhub',
             'youtube' => 'https://youtube.com/libraryhub',
         ]);
