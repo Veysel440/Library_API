@@ -14,6 +14,7 @@ class SliderController extends Controller
     public function __construct(SliderServiceInterface $sliderService)
     {
         $this->sliderService = $sliderService;
+
     }
 
     public function index(): JsonResponse

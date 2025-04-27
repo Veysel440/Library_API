@@ -14,6 +14,7 @@ class UserController extends Controller
     public function __construct(UserServiceInterface $userService)
     {
         $this->userService = $userService;
+
     }
 
     public function index(): JsonResponse

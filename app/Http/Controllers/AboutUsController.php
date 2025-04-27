@@ -6,6 +6,7 @@ use App\Http\Requests\StoreAboutUsRequest;
 use App\Http\Requests\UpdateAboutUsRequest;
 use App\Service\AboutUsServiceInterface;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Routing\Controller;
 
 class AboutUsController extends Controller
 {

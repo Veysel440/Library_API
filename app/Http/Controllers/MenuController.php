@@ -14,6 +14,7 @@ class MenuController extends Controller
     public function __construct(MenuServiceInterface $menuService)
     {
         $this->menuService = $menuService;
+
     }
 
     public function index(): JsonResponse
